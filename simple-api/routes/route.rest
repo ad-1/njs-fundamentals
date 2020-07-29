@@ -1,0 +1,28 @@
+GET http://localhost:3000/devices
+
+###
+
+GET http://localhost:3000/devices/5f2158a7124d90300c46f2c6
+
+###
+
+POST http://localhost:3000/devices
+Content-Type: application/json
+
+{
+    "qr_code": "52c4d311-1f90-48e6-928b-a4abfa8d42fe",
+    "make": "52c4d311"
+}
+
+###
+
+DELETE http://localhost:3000/devices/5f2158a7124d90300c46f2c6
+
+###
+
+PATCH  http://localhost:3000/devices/5f2158a7124d90300c46f2c6
+Content-Type: application/json
+
+{
+    "make": "B101AWX06"
+}
