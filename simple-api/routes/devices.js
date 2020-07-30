@@ -27,7 +27,7 @@ router.post("/", async (req, res) => {
     qr_code: req.body.qr_code,
     make: req.body.make,
   });
-
+  console.log(`creating new device: ${device}`);
   device
     .save()
     .then((data) => {
