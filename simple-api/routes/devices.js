@@ -20,6 +20,10 @@ router.get("/:id", getDevice, (req, res) => {
   res.json(res.device);
 });
 
+// PAIR
+
+router.post("/pair:id:message", async (req, res) => {});
+
 // CREATE
 
 router.post("/", async (req, res) => {

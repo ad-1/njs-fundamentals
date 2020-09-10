@@ -1,4 +1,4 @@
-GET http://10.66.21.64:3000/devices
+GET http://localhost:3000/devices
 
 ###
 GET http://localhost:3000/devices/5f22c316fa436340bc553c14
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/devices/5f227b381632b122285a9bc9
+DELETE http://localhost:3000/devices/5f22e7f5fa436340bc553c19
 
 ###
 

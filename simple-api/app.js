@@ -22,5 +22,5 @@ const deviceRoute = require("./routes/devices");
 app.use("/devices", deviceRoute);
 
 app.listen(port, () =>
-  console.log(`Server started. App listening at http://localhost:${port}`)
+  console.log(`Server started. App listening at http://10.0.2.2:${port}`)
 );
