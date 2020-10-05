@@ -1,7 +1,7 @@
-GET http://localhost:3000/devices
+GET http://192.168.1.6:3000/devices
 
 ###
-GET http://localhost:3000/devices/5f22c316fa436340bc553c14
+GET http://localhost:3000/devices/5f5a6c2e0e5a842878302a68
 
 ###
 

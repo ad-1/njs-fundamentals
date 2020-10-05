@@ -20,9 +20,13 @@ router.get("/:id", getDevice, (req, res) => {
   res.json(res.device);
 });
 
-// PAIR
-
-router.post("/pair:id:message", async (req, res) => {});
+function sendAMessage(msg) {
+  var c = net.createConnection(5000, '172.16.1.218');
+  c.on("connect", function() {
+    // connected to TCP server.
+    c.write(msg);
+  });
+}
 
 // CREATE
 
